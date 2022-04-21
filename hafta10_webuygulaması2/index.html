@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şenol'un Web Sitesi</title>
+    <style>
+        .container{
+        margin:0 auto;
+        width: 900px; height:600px;background-color: bisque;}
+        .menu{float:left;width: 700px;height: 60px; 
+            background-color: darkgray;}
+        .medya{float:left;width: 200px;height: 60px;
+             background-color: lightcoral;}
+        .menu ul li{float:left; padding:5px 10px 10px 20px; 
+            list-style-type: none;}
+         .menu ul li a{text-decoration: none;
+        font-weight: bolder;
+        font-size: x-large;
+        }
+        .menu ul li a:hover{color: coral;font-size: xx-large}
+        .medya a{ padding:20px 10px 10px 20px}
+        .icerik{ background-color: darkkhaki;
+        width: 900px; height: 600px;}
+    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+<body>
+ <div class="container" >
+    <div class="menu">
+        <ul>
+           <li> <a href="hakkimizda.html" target="egitim">Hakkımızda</a> </li>
+           <li> <a href="anasayfa.html" target="egitim">Ana Sayfa </a> </li>
+           <li> <a href="#">Eğitimler </a> </li>
+           <li> <a href="#">İletişim  </a> </li>
+        </ul>
+    </div>
+    <div class="medya">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-youtube"></a>
+        <a href="#" class="fab fa-instagram"></a>
+    </div>
+    <div class="icerik">
+        <iframe name="egitim" src="anasayfa.html" 
+        width="900" height="540">
+        </iframe>
+    </div>
+ </div>
+     
+</body>
+</html>
