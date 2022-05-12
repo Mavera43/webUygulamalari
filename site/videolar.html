@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+       .vidoeContainer{
+           display: flex;
+       }
+        .videoMenu{
+            margin: 20px;
+            width: 300px;
+            height: 350px;
+            background-color: bisque;
+            border:10px salmon solid;
+            border-radius: 10px;
+        }
+        .videoIframe{
+            margin: 20px;
+            background-color: bisque;;
+            border-radius: 10px;
+          
+            border:10px salmon solid;
+        }
+        .videoMenu ul li{list-style: none; padding: 7px;}
+        .videoMenu ul li a{text-decoration: none;
+            color:black; padding: 5px;
+        font-size: larger; font-weight: bolder;}
+        .videoMenu ul li a:hover{
+            color:orangered;
+            font-size: x-large;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="vidoeContainer">
+        <div class="videoMenu">
+            <ul>
+<li><a href = "https://www.youtube.com/embed/fcAUuP3z5Ew" target="videoOynat">Biyolojik Çeşitlilik</a></li>
+<li><a href = "https://www.youtube.com/embed/bkMVnln4Dew" target="videoOynat">Farklılıklara Saygı</a></li>
+<li><a href = "https://www.youtube.com/embed/2U8GTlaFECg" target="videoOynat">Minikler Sayıları Öğreniyor</a></li>
+<li><a href = "https://www.youtube.com/embed/uCIGlVorw_I" target="videoOynat">Oyun Oynayalım</a></li>
+<li><a href = "https://www.youtube.com/embed/ntsmQJrAVz4" target="videoOynat">Tekerlemeler</a></li>
+<li><a href = "https://www.youtube.com/embed/qAvTkRQn-jI" target="videoOynat">Engelliler Haftası</a></li>
+ 
+            </ul>
+        </div>
+
+        <div class="videoIframe">
+            <iframe name = "videoOynat" width="550" height="300"
+            frameborder=0></iframe>
+        </div>
+
+    </div>
+</body>
+</html>

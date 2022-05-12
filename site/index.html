@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <title>New Site</title>
+    
+    <style>
+        *{
+            border-spacing: 0;
+            box-sizing: border-box;
+        }
+        body{
+          
+          
+        }
+        .container {
+            margin:0 auto;border: 0px solid rebeccapurple;
+            width: 1000px;height: 600px;
+            background-image: url(resim/egitim.jpg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+        }
+        .logo{float:left;padding:10px;justify-content: center; display: flex; align-items: center;}
+        .logo img{border-radius:30px;}
+        .logo:hover{transform: scaleX(-1);}
+        .menu{float: left;width: 800px;
+            border-radius:15px 0px 0px 15px;
+            background-color: beige;padding: 0px;height: 60px;
+        }
+        .medya{width:200px;border-radius: 0px 15px 15px 0px;
+            background-color: beige;padding: 0px;height: 60px;
+        justify-content: center; display: flex; align-items: center;}
+        .medya a{padding: 10px; color:crimson}
+        .menu ul li{
+            list-style: none; float: left; padding: 10px;
+          
+        }
+        .menu ul li a{
+            text-decoration: none; color:black; font-weight: bolder;
+        }
+        .menu ul li a:hover{
+            color:orangered;}
+    .icerik{border-radius: 15px;margin-top:5px;
+        background-color: gainsboro;
+        width: 998px;height:fit-content;
+        border:0px solid red;
+     height: 420px;   
+    }
+    .ic1{
+        background-color: coral;width:477px;height: 400px;
+        float:left;border:0px solid black;
+        margin:10px;text-align: center;
+        border-radius: 10px;
+    }
+    .ic1 img{border-radius: 15px;}
+    .ic1 p{margin:15px;border-radius: 15px;
+        text-align: justify;padding: 10px; background-color:antiquewhite ;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="logo">
+                <img class="imglogo" src="resim/logo.png" width="50" height="50">
+            </div>
+            <ul>
+                <li><a href = "Hakkımızda.html" target="myframe">Hakkımızda</a></li>
+                <li><a href = "anasayfa.html" target="myframe">Ana Sayfa</a></li>
+                <li><a href = "egitimler.html" target="myframe">Eğitimler</a></li>
+                <li><a href = "iletisim.html" target="myframe">iletişim</a></li>
+                <li><a href = "videolar.html" target="myframe">Videolar</a></li>
+            </ul>
+        </div>
+        <div class="medya">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/universitemdpu" target="_blank" class="fab fa-instagram"></a>
+            
+        </div>
+        <iframe src="anasayfa.html" name="myframe"
+style="height:700px;width:990px;border:0"</iframe>
+
+        <!-- <div class="icerik">
+            <div class="ic1">
+                <h3>Kütahya Dumlupınar Üniversitesi</h3>
+                <img src="resim/dpu.jpg">
+                <p>
+                    Kütahya il merkezinde yer alan Evliya Çelebi Yerleşkesi, 7 bin 500 dekarın üzerinde bir alana sahiptir. Yerleşke Osmanlı-Selçuklu mimari felsefesi üzerine kurulmuştur. Yerleşkeye giriş, Yerleşkenin ortasında yer alan iki büyük kule ile yanlara doğru küçülen kuleler ve bu kulelerin arasındaki kemerli girişlerin olduğu taç kapıdan sağlanmaktadır. Yerleşke alanında Yerleşkeyi çevreleyen geniş bir ring yolu oluşturulmuş ve fakülte bloklarının içine taşıtların girmesi engellenerek taşıt ve yaya sirkülasyon alanları birbirinden büyük ölçüde ayrılmıştır.
+                </p>
+            </div>
+            
+            <div class="ic1">
+                <h3>Eğitim Fakültesi</h3>
+                <img src="resim/egitimfakultesi.jpg">
+                <p>
+                    Kütahya Dumlupınar Üniversitesi Eğitim Fakültesi’nin gerek Kütahya, gerek çevre il ve ilçeler ve gerekse Dumlupınar Üniversitesi için eğitim alanında yeni yönelimler, yeni açılımlar ve yeni bir dinamizm getireceği düşünülmektedir. Bu noktadan hareketle, Kütahya Dumlupınar Üniversitesi Eğitim Fakültesi’nin çeşitli çevrelere sağlayabileceği başlıca katkılar şöyle sıralanabilir:
+                </p>
+            </div>
+        </div> -->
+
+    </div>
+</body>
+</html>
